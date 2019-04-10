@@ -1,5 +1,6 @@
 ## Welcome to Mingyu Choo's GitHub Pages
 
+Hello?
 <ul>
   {% for post in site.posts %}
     <li>
