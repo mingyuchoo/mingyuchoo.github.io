@@ -179,7 +179,7 @@ a, *b, c = numbers
 Reverse is rotnemedoc
 ```
 
-```
+```python
 >>> a = 'abcdefghijklmnopqrstuvwxyz'
 
 """reversing string with special case of slice stop param"""
