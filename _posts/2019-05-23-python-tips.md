@@ -15,7 +15,7 @@
 
 
 ## When used in multiplication and power operations using the asterisk(*)
-```
+```python
 >>> 2 * 3
 6
 
@@ -40,7 +40,7 @@
 ```
 
 ## For using the variadic arguments using the asterisk(*)
-```
+```python
 # A function that shows the results of running competitions consisting of 2 to 4 runners.
 def save_ranking(first, second, third=None, fourth=None):
     rank = {}
@@ -60,7 +60,7 @@ save_ranking('alice', 'ming', 'mike', fourth='jim')
 ```
 
 ## When use only positional arguments
-```
+```python
 def save_ranking(*args):
     print(args) 
 save_ranking('ming', 'alice', 'tom', 'wilson', 'roy')
@@ -71,7 +71,7 @@ save_ranking('ming', 'alice', 'tom', 'wilson', 'roy')
 ```
 
 ## When use only keyword arguments
-```
+```python
 def save_ranking(**kwargs):
     print(kwargs)
 save_ranking(first='ming', second='alice', fourth='wilson', third='tom', fifth='roy')
@@ -82,7 +82,7 @@ save_ranking(first='ming', second='alice', fourth='wilson', third='tom', fifth='
 ```
 
 ## When use both positional arguments and keyword arguments
-```
+```python
 def save_ranking(*args, **kwargs):
     print(args)     
     print(kwargs)
@@ -93,7 +93,7 @@ save_ranking('ming', 'alice', 'tom', fourth='wilson', fifth='roy')
 ```
 
 ## For unpacking the containers
-```
+```python
 from functools import reduce
 
 primes = [2, 3, 5, 7, 11, 13]
@@ -109,7 +109,7 @@ product(primes)
 # [2, 3, 5, 7, 11, 13]
 ```
 
-```
+```python
 headers = {
     'Accept': 'text/plain',
     'Content-Length': 348, 
@@ -129,7 +129,7 @@ pre_process(**headers)
 # ValueError: You must use SSL for http communication
 ```
 
-```
+```python
 numbers = [1, 2, 3, 4, 5, 6]
 
 # The left side of unpacking should be list or tuple.
@@ -163,7 +163,7 @@ a, *b, c = numbers
 ```
 
 ## Return Multiple values from Functions
-```
+```python
 >>> def x():
 ...     return 1, 2, 3, 4
 ...
@@ -173,7 +173,7 @@ a, *b, c = numbers
 ```
 
 ## Reversing a string
-```
+```python
 >>> a =  "codementor"
 >>> print("Reverse is {}".format(a[::-1]))
 Reverse is rotnemedoc
@@ -224,7 +224,7 @@ a
 ```
 
 ## Reverse a list
-```
+```python
 """reversing list with special case of slice step param"""
 >>> a = [5, 4, 3, 2, 1]
 >>> print(a[::-1])
@@ -242,7 +242,7 @@ a
 ```
 
 ## Transposing a Matrix
-```
+```python
 """transpose 2d array [[a,b], [c,d], [e,f]] -> [[a,c,e], [b,d,f]]"""
 >>> original = [['a', 'b'], ['c', 'd'], ['e', 'f']]
 >>> transposed = zip(*original)
@@ -256,7 +256,7 @@ a
 ```
 
 ## Store all three values of the list in 3 new variables
-```
+```python
 >>> a = [1, 2, 3]
 >>> x, y, z = a 
 >>> x
@@ -268,13 +268,13 @@ a
 ```
 
 ## Creating a single string from all the elements in list above.
-```
+```python
 >>> a = ["Code", "mentor", "Python", "Developer"]
 >>> print " ".join(a)
 Code mentor Python Developer
 ```
 
-```
+```python
 """converts list to comma separated string"""
 >>> items = ['foo', 'bar', 'xyz']
 >>> output = ','.join(items)
@@ -295,7 +295,7 @@ foo,bar,xyz
 ```
 
 ## Write a Python code to print
-```
+```python
 >>> list1 = ['a', 'b', 'c', 'd']
 >>> list2 = ['p', 'q', 'r', 's']
 >>> for x, y in zip(list1,list2):
@@ -308,7 +308,7 @@ d s
 ```
 
 ## Swap two numbers with one line of code
-```
+```python
 >>> a, b = 7, 5
 >>> b, a = a, b
 >>> a
@@ -318,13 +318,13 @@ d s
 ```
 
 ## Print "codecodecodecode mentormentormentormentormentor" without using loops
-```
+```python
 >>> print "code"*4+' '+"mentor"*5
 codecodecodecode mentormentormentormentormentor
 ```
 
 ## Convert input data to a single list without using any loops
-```
+```python
 >>> import itertools 
 >>> a = [[1,2], [3,4], [5,6]]
 >>> # Output: [1,2,3,4,5,6]
@@ -334,7 +334,7 @@ codecodecodecode mentormentormentormentormentor
 
 ## Checking if two words are anagrams
 참고: anagram = 철자 순서를 바꾼말
-```
+```python
 from collections import Counter
 
 def is_anagram(str1, str2):
@@ -350,7 +350,7 @@ False
 ## Taking a string input
 For example “1 2 3 4 “ and return [1, 2, 3, 4]
 Remember list being returned has integers in it. Don’t use more than one line of code.
-```
+```python
 >>> result = map(lambda x:int(x) ,raw_input().split())
 1 2 3 4
 >>> result
@@ -358,7 +358,7 @@ Remember list being returned has integers in it. Don’t use more than one line 
 ```
 
 ## Find the most frequent value in a list
-```
+```python
 """ most frequent element in a list """
 a = [1, 2, 3, 1, 2, 3, 2, 2, 4, 5, 1]
 print(max(set(a), key = a.count))
@@ -371,7 +371,7 @@ print(cnt.most_common(3))
 ```
 
 ## Min and Max index in list
-```
+```python
 """Find index of Min/Max element"""
 >>> print({**d1, **d2})
 {'a': 1, 'b': 2}
@@ -396,7 +396,7 @@ print(cnt.most_common(3))
 ```
 
 ## Chained Comparison
-```
+```python
 >>> """chained comparison with all kind of operators"""
 >>> print(4 < b < 7)
 True
@@ -405,7 +405,7 @@ False
 ```
 
 ## Remove duplicated from a list
-```
+```python
 """remove duplicate items from list. note: note preserve the original list order"""
 >>> items = [2,2,3,3,1]
 >>> new_items = list(set(items))
@@ -420,7 +420,8 @@ False
 ```
 
 ## Chained function call
-```>>> """calliing different functions with same arguments based on condition"""
+```python
+>>> """calliing different functions with same arguments based on condition"""
 >>> def product(a, b):
 ...     return a * b
 ...
@@ -433,7 +434,7 @@ False
 ```
 
 ## Copying List
-```
+```python
 >>> a = [5, 4, 3, 2, 1]
 
 >>> """a fast way to make a shallow copy of a list"""
@@ -477,7 +478,7 @@ False
 >>> b
 [5, 4, 3, 2, 1]
 ```
-```
+```python
 >>> """copy nested list using copy.deepcopy"""
 >>> from copy import deepcopy
 >>> l1 = [[1,2], [3,4]]
@@ -487,7 +488,7 @@ False
 ```
 
 ## Dictionary Get
-```
+```python
 """returning None or default value, when key is not in dict"""
 >>> d = {'a':1, 'b':2}
 >>> print(d.get('c', 3))
@@ -495,7 +496,7 @@ False
 ```
 
 ## Sort Dictionary by value
-```
+```python
 >>> a = [5, 2, 3, 1, 4]
 >>> a
 [5, 2, 3, 1, 4]
@@ -528,7 +529,7 @@ False
 [('dave', 'B', 10), ('jane', 'B', 12), ('john', 'A', 15)]
 ```
 
-```
+```python
 """Sort a dictionary by its value with the built-in sorted() function and a 'key' argument."""
 >>> d = {'apple':10, 'orange':20, 'banana':5, 'rotten tomato': 1}
 >>> print(sorted(d.items(), key=lambda x: x[1]))
@@ -548,7 +549,7 @@ False
 ```
 
 ## Merge dict's
-```
+```python
 """merge dict's"""
 >>> d1 = {'a': 1}
 >>> d2 = {'b': 2}
@@ -570,7 +571,7 @@ TypeError: 'a' is an invalid keyword argument for print()
 ```
 
 ## For Else
-```
+```python
 """else gets called when for loop does not reach break statement"""
 >>> a = [1, 2, 3, 4, 5]
 >>> for element in a:
