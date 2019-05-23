@@ -14,7 +14,7 @@
 
 
 
-## When used in multiplication and power operations using the asterisk(*)
+## Asterisk(*)의 사용법
 ```python
 >>> 2 * 3
 6
@@ -59,7 +59,7 @@ save_ranking('alice', 'ming', third='mike')
 save_ranking('alice', 'ming', 'mike', fourth='jim')
 ```
 
-## When use only positional arguments
+## 일반 함수 인자만 사용할 경우
 ```python
 def save_ranking(*args):
     print(args) 
@@ -70,7 +70,7 @@ save_ranking('ming', 'alice', 'tom', 'wilson', 'roy')
 #  a는   packed 상태인 리스트 또는 튜플
 ```
 
-## When use only keyword arguments
+## 키워드 함수 인자만 사용할 경우
 ```python
 def save_ranking(**kwargs):
     print(kwargs)
@@ -81,7 +81,7 @@ save_ranking(first='ming', second='alice', fourth='wilson', third='tom', fifth='
 #   a는   packed 상태인 딕셔너리
 ```
 
-## When use both positional arguments and keyword arguments
+## 일반 함수 인자와 키워드 인자를 둘 다 사용할 때
 ```python
 def save_ranking(*args, **kwargs):
     print(args)     
@@ -92,7 +92,7 @@ save_ranking('ming', 'alice', 'tom', fourth='wilson', fifth='roy')
 # {'fourth': 'wilson', 'fifth': 'roy'}
 ```
 
-## For unpacking the containers
+## Asterisk(*)의 컨테이너 아이템 풀기
 ```python
 from functools import reduce
 
@@ -162,7 +162,7 @@ a, *b, c = numbers
 2
 ```
 
-## Return Multiple values from Functions
+## 함수에서 여러 개의 값을 반환하기
 ```python
 >>> def x():
 ...     return 1, 2, 3, 4
@@ -172,7 +172,7 @@ a, *b, c = numbers
 1 2 3 4
 ```
 
-## Reversing a string
+## 문자열 뒤바꾸기
 ```python
 >>> a =  "codementor"
 >>> print("Reverse is {}".format(a[::-1]))
@@ -193,28 +193,9 @@ zyxwvutsrqponmlkjihgfedcba
 z
 y
 x
-w
-v
-u
-t
-s
-r
-q
-p
-o
-n
-m
-l
-k
-j
-i
-h
-g
-f
-e
-d
-c
-b
+.
+.
+.
 a
 
 """reversing an integer through type conversion and slicing."""
@@ -223,7 +204,15 @@ a
 987654321
 ```
 
-## Reverse a list
+## 리스트 아이템 필터링
+```python
+>>> [*filter(lambda x: x < 4, numbers)]
+[1, 2, 3]
+>>>
+>>> [number for number in numbers if number < 4]
+[1, 2, 3]
+```
+## 리스트 아이템 순서 뒤바꾸기
 ```python
 """reversing list with special case of slice step param"""
 >>> a = [5, 4, 3, 2, 1]
@@ -241,7 +230,25 @@ a
 5
 ```
 
-## Transposing a Matrix
+## 리스트로 이중 For Loop 구현하기
+```python
+>>> for x in (0,1,2,3):
+...     for y in (0,1,2,3):
+...         if x < y:
+...             print(x,y, x*y)
+...
+0 1 0
+0 2 0
+0 3 0
+1 2 2
+1 3 3
+2 3 6
+
+>>> [(x, y, x*y) for x in (0,1,2,3) for y in (0,1,2,3) if x < y]
+[(0, 1, 0), (0, 2, 0), (0, 3, 0), (1, 2, 2), (1, 3, 3), (2, 3, 6)]
+```
+
+## 행렬 바꾸기
 ```python
 """transpose 2d array [[a,b], [c,d], [e,f]] -> [[a,c,e], [b,d,f]]"""
 >>> original = [['a', 'b'], ['c', 'd'], ['e', 'f']]
