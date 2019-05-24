@@ -1,7 +1,7 @@
 
 # Python tips and tricks
 
-## Role of Underscore( _ ) in Python
+## 파이썬에서 Underscore( _ ) 역할
 * Using in Interpreter
 * Ignoring Value
 * Use in Looping
@@ -274,7 +274,7 @@ a
 3
 ```
 
-## Creating a single string from all the elements in list above.
+## List의 모든 요소를 하나의 문자열로 만들기
 ```python
 >>> a = ["Code", "mentor", "Python", "Developer"]
 >>> print " ".join(a)
@@ -301,7 +301,7 @@ foo,bar,xyz
 2,hello,3,3.4 # <class 'str'>
 ```
 
-## Write a Python code to print
+## 두 개의 리스트의 행과 열을 바꾸어 출력
 ```python
 >>> list1 = ['a', 'b', 'c', 'd']
 >>> list2 = ['p', 'q', 'r', 's']
@@ -314,7 +314,7 @@ c r
 d s
 ```
 
-## Swap two numbers with one line of code
+## 한 줄로 두 개의 변수 값 교체
 ```python
 >>> a, b = 7, 5
 >>> b, a = a, b
@@ -324,13 +324,13 @@ d s
 7
 ```
 
-## Print "codecodecodecode mentormentormentormentormentor" without using loops
+## Loop문 없이 "codecodecodecode mentormentormentormentormentor" 문자열 출력
 ```python
 >>> print "code"*4+' '+"mentor"*5
 codecodecodecode mentormentormentormentormentor
 ```
 
-## Convert input data to a single list without using any loops
+## Loop문 사용하지 않고 데이터를 한 개의 리스트로 만들기
 ```python
 >>> import itertools 
 >>> a = [[1,2], [3,4], [5,6]]
@@ -354,7 +354,7 @@ True
 False
 ```
 
-## Taking a string input
+## 외부 입력값 받기
 For example “1 2 3 4 “ and return [1, 2, 3, 4]
 Remember list being returned has integers in it. Don’t use more than one line of code.
 ```python
@@ -377,7 +377,7 @@ cnt = Counter(a)
 print(cnt.most_common(3))
 ```
 
-## Min and Max index in list
+## 리스트에서 최소, 최대값의 인덱스 찾기
 ```python
 """Find index of Min/Max element"""
 >>> print({**d1, **d2})
@@ -411,7 +411,7 @@ True
 False
 ```
 
-## Remove duplicated from a list
+## 리스트에서 중복된 값 제거
 ```python
 """remove duplicate items from list. note: note preserve the original list order"""
 >>> items = [2,2,3,3,1]
@@ -440,7 +440,7 @@ False
 35
 ```
 
-## Copying List
+## List 복사
 ```python
 >>> a = [5, 4, 3, 2, 1]
 
@@ -494,7 +494,7 @@ False
 [[1, 2], [3, 4]]
 ```
 
-## Dictionary Get
+## Dictionary의 get 메소드 활용
 ```python
 """returning None or default value, when key is not in dict"""
 >>> d = {'a':1, 'b':2}
@@ -502,7 +502,7 @@ False
 3
 ```
 
-## Sort Dictionary by value
+## 값으로 Dictionary 정렬
 ```python
 >>> a = [5, 2, 3, 1, 4]
 >>> a
@@ -555,7 +555,7 @@ False
 ['rotten tomato', 'banana', 'apple', 'orange']
 ```
 
-## Merge dict's
+## Dictionary 병합
 ```python
 """merge dict's"""
 >>> d1 = {'a': 1}
@@ -577,7 +577,7 @@ TypeError: 'a' is an invalid keyword argument for print()
 {'a': 1, 'b': 2}
 ```
 
-## For Else
+## For Loop문에서 Else 활용
 ```python
 """else gets called when for loop does not reach break statement"""
 >>> a = [1, 2, 3, 4, 5]
