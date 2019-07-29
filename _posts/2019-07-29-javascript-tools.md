@@ -8,7 +8,7 @@
 
 ## Testing Framework 
 
-### sjnon
+### sinon
 * Mocking library
 * https://sinonjs.org
 * supports spy, stub, and fake
