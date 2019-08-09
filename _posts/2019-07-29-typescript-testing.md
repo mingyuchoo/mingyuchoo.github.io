@@ -1,9 +1,101 @@
-# Typescrip testing
+# Typescript
+
+## Types
+
+### Basic Types
+ - boolean
+ - number
+ - string
+ - [], Array<Type>
+ - [Type, Type]
+ - {,,,}
+ - any, any[]
+ - void
+ - undefined, null
+ - naver
+ 
+
+#### Boolean
+```
+let isDone: boolean = false;
+```
+
+#### Number
+```
+let decimal: number = 6;
+```
+
+
+#### String
+```
+let color: string = "blue";
+```
+
+
+#### Array
+```
+let list: number[] = [1, 2, 3];
+let list: Array<number> = [1, 2, 3];
+```
+
+
+#### Tuple
+```
+let x: [string, number];
 
 ```
-$ npm install typescript --save-dev
-$ npm install ts-node mocha @types/mocha chai @types/chai --save-dev
-$ npm install ignore-styles --save-dev
-$ npm install jsdom jsdom-global --save-dev
-$ npm install cross-env --save-dev
+
+
+#### Enum
 ```
+enum Color {Red, Green, Blue}
+let c Color = Color.Green;
+```
+
+
+#### Any
+```
+let notSure: any = 4;
+let list: any[] = [1, true, "free"];
+```
+
+
+#### Void
+```
+let unusable: void = undefined;
+```
+
+
+#### Null and Undefined
+```
+let u: undefined = undefined;
+let n: null = null;
+```
+
+
+#### Never
+```
+function error(message: string): never {
+    throw new Error(message);
+}
+function infiniteLoop(): never {
+    while (true) {
+    }
+}
+
+```
+
+
+#### Object
+```
+declare function create(o: object | null): void;
+
+create({ prop: 0 }); // OK
+create(null); // OK
+
+create(42); // Error
+create("string"); // Error
+create(false); // Error
+create(undefined); // Error
+```
+
