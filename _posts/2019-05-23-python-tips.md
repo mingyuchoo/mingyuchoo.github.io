@@ -3,7 +3,8 @@ layout: post
 title: "Python tips and tricks"
 date: 2019-05-23 00:00
 categories: post
-tags: [post, tech, python]
+tags: [tech, python]
+comments: true
 ---
 
 ## 파이썬에서 Underscore( _ ) 역할

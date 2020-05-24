@@ -3,7 +3,8 @@ layout: post
 title: "Bash Tips & Tricks"
 date: 2020-05-24 00:00
 categories: post
-tags: [post, tech, bash]
+tags: [tech, bash]
+comments: true
 ---
 
 ### 한 번에 모든 프로젝트에 ncu 로 모듈 업데이트하기

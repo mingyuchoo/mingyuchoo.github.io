@@ -3,7 +3,8 @@ layout: post
 title: "MVP, MMF, MMP, and MMR"
 date: 2020-05-24 00:00
 categories: post
-tags: [post, agile, scrum]
+tags: [agile, scrum]
+comments: true
 ---
 
 - MVP(Minimum Viable Product)

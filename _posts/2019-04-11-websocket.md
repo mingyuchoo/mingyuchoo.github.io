@@ -3,7 +3,8 @@ layout: post
 title: "웹소켓(WebSocket) 둘러보기"
 date: 2019-04-11 08:30
 categories: post
-tags: [post, tech, python]
+tags: [tech, python]
+comments: true
 ---
 
 ## History
