@@ -1,12 +1,18 @@
-# Javascript Development Tools & Frameorks, & Libraries
+---
+layout: post
+title: "Javascript Development Tools & Frameorks, & Libraries"
+date: 2019-07-29 00:00
+categories: post
+tags: [post, tech, javascript, node]
+---
 
 ## Package management
 
-## Nodejs Framework 
+## Nodejs Framework
 
 ## Bundler
 
-## Testing Framework 
+## Testing Framework
 
 ### sinon
 * Mocking library

@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Python Package Update"
+date: 2019-07-27 00:00
+categories: post
+tags: [post, tech, python, pip]
+---
+
 # Python 패키지 설치
 
 ## I  cannot install or upgrade pip "ssl error"

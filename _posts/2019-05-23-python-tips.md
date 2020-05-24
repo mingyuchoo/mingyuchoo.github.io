@@ -1,5 +1,10 @@
-
-# Python tips and tricks
+---
+layout: post
+title: "Python tips and tricks"
+date: 2019-05-23 00:00
+categories: post
+tags: [post, tech, python]
+---
 
 ## 파이썬에서 Underscore( _ ) 역할
 * Using in Interpreter

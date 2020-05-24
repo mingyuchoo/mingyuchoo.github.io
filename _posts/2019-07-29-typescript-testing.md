@@ -1,3 +1,11 @@
+---
+layout: post
+title: "TypeScript Basic"
+date: 2019-07-29 00:00
+categories: post
+tags: [post, tech, typescript, basic]
+---
+
 ## Types
 
 ### Basic Types

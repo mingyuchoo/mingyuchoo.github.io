@@ -1,4 +1,10 @@
-![Image](@attachment/mvp_mmf_mmr_mmp.jpeg)
+---
+layout: post
+title: "MVP, MMF, MMP, and MMR"
+date: 2020-05-24 00:00
+categories: post
+tags: [post, agile, scrum]
+---
 
 - MVP(Minimum Viable Product)
 - MMF(Minimum Marketable Feature)
@@ -35,8 +41,6 @@ Minumum Marketable Release
 - MMR is all consecutive minimal releases that bring new value to the users.
 - A fully functional release of a product that represents that smallest possible feature set that addresses the current needs of your customers.
 
-
-![Image](@attachment/1_gDqJaXqgpOpg-l6yfgJ_vg.png)
 
 ## References
 

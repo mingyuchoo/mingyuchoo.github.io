@@ -1,3 +1,11 @@
+---
+layout: post
+title: "User Story Examples"
+date: 2020-05-24 00:00
+categories: post
+tags: [post, agile, scrum, userstory]
+---
+
 ## Example 1
 
 ```yaml

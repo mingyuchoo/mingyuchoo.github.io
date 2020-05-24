@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Capability Level"
+date: 2020-05-24 00:00
+categories: post
+tags: [post, human]
+---
+
 - https://www.skills-base.com/competency-framework
 
 1. Initial
