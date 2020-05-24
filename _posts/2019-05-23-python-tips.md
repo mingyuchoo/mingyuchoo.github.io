@@ -12,8 +12,6 @@
   * Double Pre Underscores **__variable**
   * Double Pre and Post Underscores **__variable__*
 
-
-
 ## Asterisk(*)의 사용법
 ```python
 >>> 2 * 3
@@ -62,7 +60,7 @@ save_ranking('alice', 'ming', 'mike', fourth='jim')
 ## 일반 함수 인자만 사용할 경우
 ```python
 def save_ranking(*args):
-    print(args) 
+    print(args)
 save_ranking('ming', 'alice', 'tom', 'wilson', 'roy')
 
 # ['ming', 'alice', 'tom', 'wilson', 'roy']
@@ -100,7 +98,7 @@ primes = [2, 3, 5, 7, 11, 13]
 
 def product(*numbers):
     p = reduce(lambda x, y: x * y, numbers)
-    return p 
+    return p
 
 product(*primes)
 # 30030
@@ -112,14 +110,14 @@ product(primes)
 ```python
 headers = {
     'Accept': 'text/plain',
-    'Content-Length': 348, 
-    'Host': 'http://mingrammer.com' 
+    'Content-Length': 348,
+    'Host': 'http://mingrammer.com'
 }  
-def pre_process(**headers): 
-    content_length = headers['Content-Length'] 
-    print('content length: ', content_length) 
+def pre_process(**headers):
+    content_length = headers['Content-Length']
+    print('content length: ', content_length)
     host = headers['Host']
-    if 'https' not in host: 
+    if 'https' not in host:
         raise ValueError('You must use SSL for http communication')          
 pre_process(**headers)
 # content length:  348
@@ -142,7 +140,7 @@ numbers = [1, 2, 3, 4, 5, 6]
 # b = 6
 
 a, *b, = numbers
-# a = 1 
+# a = 1
 # b = [2, 3, 4, 5, 6]
 
 a, *b, c = numbers
@@ -265,7 +263,7 @@ a
 ## Store all three values of the list in 3 new variables
 ```python
 >>> a = [1, 2, 3]
->>> x, y, z = a 
+>>> x, y, z = a
 >>> x
 1
 >>> y
@@ -332,7 +330,7 @@ codecodecodecode mentormentormentormentormentor
 
 ## Loop문 사용하지 않고 데이터를 한 개의 리스트로 만들기
 ```python
->>> import itertools 
+>>> import itertools
 >>> a = [[1,2], [3,4], [5,6]]
 >>> # Output: [1,2,3,4,5,6]
 >>> list(itertools.chain.from_iterable(a))
