@@ -1,5 +1,3 @@
-# Capability Level
-
 - https://www.skills-base.com/competency-framework
 
 1. Initial

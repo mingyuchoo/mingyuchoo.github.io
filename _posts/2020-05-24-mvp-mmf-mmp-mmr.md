@@ -1,5 +1,3 @@
-# MVP, MMF, MMR and MMP
-
 ![Image](@attachment/mvp_mmf_mmr_mmp.jpeg)
 
 - MVP(Minimum Viable Product)

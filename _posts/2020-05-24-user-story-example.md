@@ -1,5 +1,3 @@
-# User story examples
-
 ## Example 1
 
 ```yaml

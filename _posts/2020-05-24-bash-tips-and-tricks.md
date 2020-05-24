@@ -1,5 +1,3 @@
-# Bash Tips & Tricks
-
 ### 한 번에 모든 프로젝트에 ncu 로 모듈 업데이트하기
 
 ```bash

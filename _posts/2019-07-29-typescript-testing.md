@@ -1,5 +1,3 @@
-# Typescript
-
 ## Types
 
 ### Basic Types
@@ -13,7 +11,7 @@
  - void
  - undefined, null
  - naver
- 
+
 
 #### Boolean
 ```
@@ -98,4 +96,3 @@ create("string"); // Error
 create(false); // Error
 create(undefined); // Error
 ```
-
