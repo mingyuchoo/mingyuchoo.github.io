@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Programmers Hash Exercise"
+title: "Hash"
 date: 2020-05-24 00:00
 categories: post
-tags: [algorithm, porgrammers, hash, exercise]
+tags: [algorithm, hash]
 comments: true
 ---
 

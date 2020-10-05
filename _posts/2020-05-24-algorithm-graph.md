@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Programmers Graph Exercise"
+title: "Graph"
 date: 2020-05-24 00:00
 categories: post
-tags: [algorithm, porgrammers, graph, exercise]
+tags: [algorithm, graph]
 comments: true
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Programmers DFS/BFS Exercise"
+title: "DFS/BFS"
 date: 2020-05-24 00:00
 categories: post
-tags: [algorithm, porgrammers, binary-search, exercise]
+tags: [algorithm, bfs, dfs]
 comments: true
 ---
 
