@@ -26,48 +26,48 @@ reference - []<https://www.mongodb.com/blog/post/building-with-patterns-a-summar
 
 ## Appproximation pattern
 
-reference - [Appproximation pattern]<https://www.mongodb.com/blog/post/building-with-patterns-the-approximation-pattern>
+reference - <https://www.mongodb.com/blog/post/building-with-patterns-the-approximation-pattern>
 
 ## Attribute pattern
 
-reference - [ttribute pattern]<https://www.mongodb.com/blog/post/building-with-patterns-the-attribute-pattern>
+reference - <https://www.mongodb.com/blog/post/building-with-patterns-the-attribute-pattern>
 
 ## Bucket pattern
 
-reference - [Bucket pattern]<https://www.mongodb.com/blog/post/building-with-patterns-the-bucket-pattern>
+reference - <https://www.mongodb.com/blog/post/building-with-patterns-the-bucket-pattern>
 
 ## Computed pattern
 
-reference - [Computed pattern]<https://www.mongodb.com/blog/post/building-with-patterns-the-computed-pattern>
+reference - <https://www.mongodb.com/blog/post/building-with-patterns-the-computed-pattern>
 
 ## Document Versioning pattern
 
-reference - [Document Versioning pattern]<https://www.mongodb.com/blog/post/building-with-patterns-the-document-versioning-pattern>
+reference - <https://www.mongodb.com/blog/post/building-with-patterns-the-document-versioning-pattern>
 
 ## Extended Reference pattern
 
-reference - [Extended Reference pattern]<https://www.mongodb.com/blog/post/building-with-patterns-the-extended-reference-pattern>
+reference - <https://www.mongodb.com/blog/post/building-with-patterns-the-extended-reference-pattern>
 
 ## Outlier pattern
 
-reference - [Outlier pattern]<https://www.mongodb.com/blog/post/building-with-patterns-the-outlier-pattern>
+reference - <https://www.mongodb.com/blog/post/building-with-patterns-the-outlier-pattern>
 
 ## Pre-allocated pattern
 
-reference - [Pre-allocated pattern]<https://www.mongodb.com/blog/post/building-with-patterns-the-preallocation-pattern>
+reference - <https://www.mongodb.com/blog/post/building-with-patterns-the-preallocation-pattern>
 
 ## Polymorphic pattern
 
-reference - [Polymorphic pattern]<https://developer.mongodb.com/how-to/polymorphic-pattern>
+reference - <https://developer.mongodb.com/how-to/polymorphic-pattern>
 
 ## Schema Versioning pattern
 
-reference - [Schema Versioning pattern]<https://www.mongodb.com/blog/post/building-with-patterns-the-schema-versioning-pattern>
+reference - <https://www.mongodb.com/blog/post/building-with-patterns-the-schema-versioning-pattern>
 
 ## Subset pattern
 
-reference - [Subset pattern]<https://www.mongodb.com/blog/post/building-with-patterns-the-subset-pattern>
+reference - <https://www.mongodb.com/blog/post/building-with-patterns-the-subset-pattern>
 
 ## Tree and Graph pattern
 
-reference - [Tree and Graph pattern]<https://www.mongodb.com/blog/post/building-with-patterns-the-tree-pattern>
+reference - <https://www.mongodb.com/blog/post/building-with-patterns-the-tree-pattern>
