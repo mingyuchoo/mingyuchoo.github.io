@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pip on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/tags/pip/</link>
+    <description>Recent content in pip on mingyuchoo.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/tags/pip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install sticky note in Ubunut</title>
+      <link>https://mingyuchoo.github.io/posts/2019-07-27-ubuntu-install-sticky-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2019-07-27-ubuntu-install-sticky-notes/</guid>
+      <description>sudo add-apt-repository ppa:umang/indicator-stickynotes sudo apt-get update sudo apt-get install indicator-stickynotes </description>
+    </item>
+    
+    <item>
+      <title>Python Package Update</title>
+      <link>https://mingyuchoo.github.io/posts/2019-07-27-python-package-update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2019-07-27-python-package-update/</guid>
+      <description>Python 패키지 설치 I cannot install or upgrade pip &amp;ldquo;ssl error&amp;rdquo; pip install --upgrade pip --trusted-host pypi.org --trusted-host files.pythonhosted.org 패키지 업데이트 하기 오래된 패키지 업데이트하기 1 pip list --outdated --format=freeze | grep -v &amp;#39;^\-e&amp;#39; | cut -d = -f 1 | xargs -n1 pip install -U 오래된 패키지 업데이트하기 2 for package in $(pip list --outdated | awk &amp;#39;{ print $1}&amp;#39;) do pip install $package --upgrade --trusted-host pypi.org --trusted-host files.pythonhosted.org done requirements.</description>
+    </item>
+    
+  </channel>
+</rss>

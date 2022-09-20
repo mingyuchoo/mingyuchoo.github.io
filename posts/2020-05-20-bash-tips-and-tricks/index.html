@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <title>Bash Tips &amp; Tricks</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="" />
+    <style>
+@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";:root{--cursor-visibility:hidden}html,body{width:100%;height:100%;overflow-y:hidden;font-family:inconsolata,monospace;font-size:4vmin;line-height:4.1vmin;font-weight:400}body{overflow-y:auto;margin:0;display:flex;flex-direction:row;justify-content:center;align-items:center}#content{min-width:82vmin;height:82vmin}#profile_image{max-height:460px}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{border-radius:10px;box-shadow:inset 0 0 1px white}::-webkit-scrollbar-thumb{border-radius:10px;box-shadow:0 0 0 1px white}.cursor,#activity-title:after,#activity-content:after,#ps1_01:after,#cd:after,#ps1_02:after,#cat:after,#std_out_01:after,#ps1_03:after,#std_out_02:after,#ps1_04:after{visibility:var(--cursor-visibility);content:"|";overflow:hidden;color:#fff;animation:blink 500ms linear infinite alternate}@keyframes blink{0%{opacity:0}100%{opacity:1}}@media only screen and (min-width:768px){body{font-size:2.5vmin;line-height:2.6vmin}#content{min-width:60vmin}}:root{--cursor-visibility:hidden}body{align-items:unset;overflow-y:scroll}#content{max-width:80vmin}pre{overflow-x:scroll;white-space:pre}@keyframes blink{0%{opacity:0}100%{opacity:1}}
+
+
+
+
+
+
+
+
+
+body{background:#5e5086}body #prompt{color:#c8cacc}body #keyword-main{color:#2f2742}body #keyword-secondary{color:#8f4e8b}body #ghcVersion{color:#c8cacc}body #output{color:#c8cacc}body .Typewriter__cursor{color:#8f4e8b}a{color:#8f4e8b}
+
+</style>
+
+
+
+</head><body><div id="content">
+    
+    
+    
+
+
+    <span id="activity-title"></span> <br>
+<span id="activity-content"></span> <br>
+
+<script type="text/javascript" src=https://mingyuchoo.github.io/js/typewriter.min.js></script>
+<script type="text/javascript">
+    const typeeffect = async () => {
+        await typewriter("\u003cspan id='prompt'\u003e\u003ch1 id='title'\u003eBash Tips \u0026 Tricks\u003c/h1\u003e\u003c/span\u003e", "activity-title",  0 );
+        await typewriter("\u003cspan id='prompt'\u003e\u003ch3 id=\"한-번에-모든-프로젝트에-ncu-로-모듈-업데이트하기\"\u003e한 번에 모든 프로젝트에 ncu 로 모듈 업데이트하기\u003c/h3\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"\u003e\u003ccode class=\"language-bash\" data-lang=\"bash\"\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#66d9ef\"\u003efor\u003c/span\u003e directory in \u003cspan style=\"color:#66d9ef\"\u003e$(\u003c/span\u003els\u003cspan style=\"color:#66d9ef\"\u003e)\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#66d9ef\"\u003edo\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e  pushd $directory\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e  cd $directory\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e  ncu -u\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e  popd\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#66d9ef\"\u003edone\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003ch3 id=\"특정-디렉터리의-자식-디렉터리를-탐색하며-특정-파일을-삭제하기\"\u003e특정 디렉터리의 자식 디렉터리를 탐색하며 특정 파일을 삭제하기\u003c/h3\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"\u003e\u003ccode class=\"language-bash\" data-lang=\"bash\"\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#66d9ef\"\u003efor\u003c/span\u003e directory in \u003cspan style=\"color:#66d9ef\"\u003e$(\u003c/span\u003els\u003cspan style=\"color:#66d9ef\"\u003e)\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#66d9ef\"\u003edo\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e  pushd $directory\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e  cd $directory\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e  rm package-lock.json\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e  popd\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#66d9ef\"\u003edone\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003ch3 id=\"java-프로세스-목록-kill\"\u003eJava 프로세스 목록 Kill\u003c/h3\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"\u003e\u003ccode class=\"language-bash\" data-lang=\"bash\"\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#66d9ef\"\u003efor\u003c/span\u003e pid in \u003cspan style=\"color:#66d9ef\"\u003e$(\u003c/span\u003eps aux | grep java | awk \u003cspan style=\"color:#e6db74\"\u003e\u0026#39;{print $2}\u0026#39;\u003c/span\u003e\u003cspan style=\"color:#66d9ef\"\u003e)\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#66d9ef\"\u003edo\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e  kill $pid\n\u003c/span\u003e\u003c/span\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003e\u003cspan style=\"color:#66d9ef\"\u003edone\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003ch3 id=\"메모리-사용량-순서로-프로세스-목록-보기\"\u003e메모리 사용량 순서로 프로세스 목록 보기\u003c/h3\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\" style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\"\u003e\u003ccode class=\"language-bash\" data-lang=\"bash\"\u003e\u003cspan style=\"display:flex;\"\u003e\u003cspan\u003eps -ef --sort -rss | head -n \u003cspan style=\"color:#ae81ff\"\u003e11\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003c/span\u003e", "activity-content",  0 );
+        return;
+    };
+
+    typeeffect();
+</script>
+
+
+        </div></body>
+</html>

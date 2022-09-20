@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mingyuchoo.github.io</title>
-    <link>https://mingyuchoo.github.io/</link>
-    <description>Recent content on mingyuchoo.github.io</description>
+    <title>Posts on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/posts/</link>
+    <description>Recent content in Posts on mingyuchoo.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://mingyuchoo.github.io/posts/2020-05-26-manjaro-pacman/</link>

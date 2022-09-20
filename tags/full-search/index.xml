@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>full-search on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/tags/full-search/</link>
+    <description>Recent content in full-search on mingyuchoo.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/tags/full-search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Full search | Simulation</title>
+      <link>https://mingyuchoo.github.io/posts/2020-10-07-algorithm-full-search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2020-10-07-algorithm-full-search/</guid>
+      <description>완전 탐색(Full search) 또는 시뮬레이션(Simulation) 정의 완전 탐색은 모든 경우의 수를 주저 없이 다 계산하는 해결 방법을 의미하고, 시뮬레이션은 문제에서 제시한 알고리즘을 한 단계씩 차례대로 직접 수행해야 하는 문제 유형이다.
+유형 특징 사용하는 프로그래밍에 문법에 능숙하고 코드 작성 속도를 높여야 한다.
+제시한 메모리 사용량보다 더 적게 메모리를 사용해야 통과할 수 있어 시간 제한과 데이터 개수를 먼저 확인한 뒤 어느 정도의 시간 복잡도와 공간 복잡도로 알고리즘을 작정해야 할지 판단해야 한다.
+Pypy3을 선택하면 파이썬3과 동일한 코드로 빠른 실행시간을 얻을 수 있다.</description>
+    </item>
+    
+  </channel>
+</rss>

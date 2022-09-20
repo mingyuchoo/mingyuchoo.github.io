@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>binary-search on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/tags/binary-search/</link>
+    <description>Recent content in binary-search on mingyuchoo.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/tags/binary-search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binary Search</title>
+      <link>https://mingyuchoo.github.io/posts/2020-05-24-algorithm-binary-search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2020-05-24-algorithm-binary-search/</guid>
+      <description>이진 탐색이란 데이터가 정렬돼 있는 배열에서 특정한 값을 찾아내는 알고리즘이다. 배열의 중간에 있는 임의의 값을 선택하여 찾고자 하는 값 X와 비교한다. X가 중간 값보다 작으면 중간 값을 기준으로 좌측의 데이터들을 대상으로, X가 중간값보다 크면 배열의 우측을 대상으로 다시 탐색한다. 동일한 방법으로 다시 중간의 값을 임의로 선택하고 비교한다. 해당 값을 찾을 때까지 이 과정을 반복한다.</description>
+    </item>
+    
+  </channel>
+</rss>

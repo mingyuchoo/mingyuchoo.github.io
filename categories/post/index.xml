@@ -1,38 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mingyuchoo.github.io</title>
-    <link>https://mingyuchoo.github.io/</link>
-    <description>Recent content on mingyuchoo.github.io</description>
+    <title>post on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/categories/post/</link>
+    <description>Recent content in post on mingyuchoo.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://mingyuchoo.github.io/posts/2020-05-26-manjaro-pacman/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mingyuchoo.github.io/posts/2020-05-26-manjaro-pacman/</guid>
-      <description>Pacman Commands Completely remove sudo pacman -Rns &amp;lt;package-name&amp;gt; Remove orphan packages sudo pacman -Qdtq # sudo pacman -Rs $(pacman -Qqtd) Install sudo pacman -S &amp;lt;package-name&amp;gt; update the pacman package repository sudo pacman -Sy # or sudo pacman-mirrors -f 5 &amp;amp;&amp;amp; sudo pacman -Syyu Install from AUR repository visit https://aur.archlinux.org/ search package git clone &amp;hellip; git clone https://... // example: git clone https://AUR.archlinux.org/visual-studio-code-bin.git cd &amp;lt;repository-directory&amp;gt;/ makepkg -s sudo pacman -U &amp;lt;package-name&amp;gt;.pkg.tar.xz </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://mingyuchoo.github.io/posts/2022-07-17-adas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mingyuchoo.github.io/posts/2022-07-17-adas/</guid>
-      <description>ADAS(Advanced Driver Assistance Systems) </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://mingyuchoo.github.io/posts/2022-07-21-growth-hacking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mingyuchoo.github.io/posts/2022-07-21-growth-hacking/</guid>
-      <description>Growth Hacking AARRR Acquisiton Activation Retention Revenue Referral OMTM, One Metric That Matters NSM, North Start Metric KPI, Key Performance Index OKR, Objective &amp;amp; Key Results CAC, Customer Acqusition Cost UTM parameter, Urchin Tracking Module parameter Deep Link vs. Deferred Deep Link Cohort DAU, Daily Active User WAU, Weekly Active User MAU, Monthly Active User NUX, New User eXperience ARPU, Average Revenue Per User CRM, Customer Relationship Management CLV, Customer Lifetime Value LTV, Lifetime Value LTR, Lifetime Revenue MRR, Monthly Recurring Revenue Viral Coefficient Viral Loop Saturate Cross-sell Vanity Metric CPI, Cost Per Install CTR, Click Through Rate CPC, Cost Per Click EDA, Exploratory Data Analysis Survivorship Bias BI, Business Intelligence ICE Framework Impact Confidence Ease MOOC, Massive Open Online Courses </description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/categories/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algorithm Problem Solving</title>
       <link>https://mingyuchoo.github.io/posts/2020-10-12-algorithm-problem-solving/</link>

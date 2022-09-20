@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <title>Full search | Simulation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="" />
+    <style>
+@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";:root{--cursor-visibility:hidden}html,body{width:100%;height:100%;overflow-y:hidden;font-family:inconsolata,monospace;font-size:4vmin;line-height:4.1vmin;font-weight:400}body{overflow-y:auto;margin:0;display:flex;flex-direction:row;justify-content:center;align-items:center}#content{min-width:82vmin;height:82vmin}#profile_image{max-height:460px}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{border-radius:10px;box-shadow:inset 0 0 1px white}::-webkit-scrollbar-thumb{border-radius:10px;box-shadow:0 0 0 1px white}.cursor,#activity-title:after,#activity-content:after,#ps1_01:after,#cd:after,#ps1_02:after,#cat:after,#std_out_01:after,#ps1_03:after,#std_out_02:after,#ps1_04:after{visibility:var(--cursor-visibility);content:"|";overflow:hidden;color:#fff;animation:blink 500ms linear infinite alternate}@keyframes blink{0%{opacity:0}100%{opacity:1}}@media only screen and (min-width:768px){body{font-size:2.5vmin;line-height:2.6vmin}#content{min-width:60vmin}}:root{--cursor-visibility:hidden}body{align-items:unset;overflow-y:scroll}#content{max-width:80vmin}pre{overflow-x:scroll;white-space:pre}@keyframes blink{0%{opacity:0}100%{opacity:1}}
+
+
+
+
+
+
+
+
+
+body{background:#5e5086}body #prompt{color:#c8cacc}body #keyword-main{color:#2f2742}body #keyword-secondary{color:#8f4e8b}body #ghcVersion{color:#c8cacc}body #output{color:#c8cacc}body .Typewriter__cursor{color:#8f4e8b}a{color:#8f4e8b}
+
+</style>
+
+
+
+</head><body><div id="content">
+    
+    
+    
+
+
+    <span id="activity-title"></span> <br>
+<span id="activity-content"></span> <br>
+
+<script type="text/javascript" src=https://mingyuchoo.github.io/js/typewriter.min.js></script>
+<script type="text/javascript">
+    const typeeffect = async () => {
+        await typewriter("\u003cspan id='prompt'\u003e\u003ch1 id='title'\u003eFull search | Simulation\u003c/h1\u003e\u003c/span\u003e", "activity-title",  0 );
+        await typewriter("\u003cspan id='prompt'\u003e\u003ch1 id=\"완전-탐색full-search-또는-시뮬레이션simulation\"\u003e완전 탐색(Full search) 또는 시뮬레이션(Simulation)\u003c/h1\u003e\n\u003ch2 id=\"정의\"\u003e정의\u003c/h2\u003e\n\u003cp\u003e완전 탐색은 모든 경우의 수를 주저 없이 다 계산하는 해결 방법을 의미하고, 시뮬레이션은 문제에서 제시한 알고리즘을 한 단계씩 차례대로 직접 수행해야 하는 문제 유형이다.\u003c/p\u003e\n\u003ch2 id=\"유형-특징\"\u003e유형 특징\u003c/h2\u003e\n\u003cp\u003e사용하는 프로그래밍에 문법에 능숙하고 코드 작성 속도를 높여야 한다.\u003c/p\u003e\n\u003cp\u003e제시한 메모리 사용량보다 더 적게 메모리를 사용해야 통과할 수 있어 시간 제한과 데이터 개수를 먼저 확인한 뒤 어느 정도의 시간 복잡도와 공간 복잡도로 알고리즘을 작정해야 할지 판단해야 한다.\u003c/p\u003e\n\u003cp\u003ePypy3을 선택하면 파이썬3과 동일한 코드로 빠른 실행시간을 얻을 수 있다.\u003c/p\u003e\n\u003cp\u003e숙련도 높이기 위해 자신만의 코드 노트를 준비해서 이를 잘 활용해야 한다.\u003c/p\u003e\n\u003ch2 id=\"문제-식별\"\u003e문제 식별\u003c/h2\u003e\n\u003cp\u003e상하좌우로 좌표를 이동하는 여행이나 게임이 이에 속한다.\u003c/p\u003e\n\u003ch2 id=\"출제-특징\"\u003e출제 특징\u003c/h2\u003e\n\u003cp\u003e지도를 만들 때 2차원 리스트를 comprehension를 이용해 미리 만들어 놓자.\n(ex. [[0] * size for _ in range(size)])\u003c/p\u003e\n\u003cp\u003e이동 방향을 나타내는 좌표는 리스트로 미리 선언해 놓아야 한다.\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e# 좌표 정의의 예\ndx = [0, 0, -1, 1]\ndy = [-1, 1, 0, 0]\n\u003c/code\u003e\u003c/pre\u003e\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e# 이동방향 정의의 예\nsteps = [(-2, -1), (-1, -2), (1, -2), (2, -1), (2, 1) (1, 2), (-1, 2), (-2, 1)]\n\u003c/code\u003e\u003c/pre\u003e\u003cpre tabindex=\"0\"\u003e\u003ccode\u003e# 북,동,남,서 뱡향 정의의 예\ndx = [-1, 0, 1, 0]\ndy = [0, 1, 0, -1]\n\u003c/code\u003e\u003c/pre\u003e\u003ch2 id=\"예제\"\u003e예제\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e2차원 지도에서 여행하기\u003c/li\u003e\n\u003cli\u003e체스에서 말 이동\u003c/li\u003e\n\u003cli\u003e롤플레잉 게임에서 캐릭터 이동\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/span\u003e", "activity-content",  0 );
+        return;
+    };
+
+    typeeffect();
+</script>
+
+
+        </div></body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>heap on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/tags/heap/</link>
+    <description>Recent content in heap on mingyuchoo.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/tags/heap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heap</title>
+      <link>https://mingyuchoo.github.io/posts/2020-05-24-algorithm-heap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2020-05-24-algorithm-heap/</guid>
+      <description>힙은 트리의 일종이지만 조금 특이한 성질을 가지고 있습니다. 힙에는 최대힙과 최소힙이 있는데, 일단 최대힙의 정의는 다음과 같습니다.
+완전 트리이면서 Root가 모든 경우에 자식들보다 커야한다.</description>
+    </item>
+    
+  </channel>
+</rss>

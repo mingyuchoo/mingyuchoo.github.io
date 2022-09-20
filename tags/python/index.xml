@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/tags/python/</link>
+    <description>Recent content in python on mingyuchoo.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install sticky note in Ubunut</title>
+      <link>https://mingyuchoo.github.io/posts/2019-07-27-ubuntu-install-sticky-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2019-07-27-ubuntu-install-sticky-notes/</guid>
+      <description>sudo add-apt-repository ppa:umang/indicator-stickynotes sudo apt-get update sudo apt-get install indicator-stickynotes </description>
+    </item>
+    
+    <item>
+      <title>Python Package Update</title>
+      <link>https://mingyuchoo.github.io/posts/2019-07-27-python-package-update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2019-07-27-python-package-update/</guid>
+      <description>Python 패키지 설치 I cannot install or upgrade pip &amp;ldquo;ssl error&amp;rdquo; pip install --upgrade pip --trusted-host pypi.org --trusted-host files.pythonhosted.org 패키지 업데이트 하기 오래된 패키지 업데이트하기 1 pip list --outdated --format=freeze | grep -v &amp;#39;^\-e&amp;#39; | cut -d = -f 1 | xargs -n1 pip install -U 오래된 패키지 업데이트하기 2 for package in $(pip list --outdated | awk &amp;#39;{ print $1}&amp;#39;) do pip install $package --upgrade --trusted-host pypi.org --trusted-host files.pythonhosted.org done requirements.</description>
+    </item>
+    
+    <item>
+      <title>Python tips and tricks</title>
+      <link>https://mingyuchoo.github.io/posts/2019-05-23-python-tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2019-05-23-python-tips/</guid>
+      <description>파이썬에서 Underscore( _ ) 역할 Using in Interpreter Ignoring Value Use in Looping Separating Dicts of Numbers Naming using Underscore ( _ ) Single Pre Underscores _variable Single Post Underscores variable_ Double Pre Underscores __variable Double Pre and Post Underscores *variable Asterisk(*)의 사용법 &amp;gt;&amp;gt;&amp;gt; 2 * 3 6 &amp;gt;&amp;gt;&amp;gt; 2 ** 3 8 &amp;gt;&amp;gt;&amp;gt; 1.414 * 1.414 1.9993959999999997 &amp;gt;&amp;gt;&amp;gt; 1.414 ** 2 1.9993959999999997 # 리스트 초기화 예제 &amp;gt;&amp;gt;&amp;gt; zeros_list = [0] * 100 &amp;gt;&amp;gt;&amp;gt; zeros_list [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] # 튜플 초기화 예제 &amp;gt;&amp;gt;&amp;gt; zeros_tuple = (0,) * 100 &amp;gt;&amp;gt;&amp;gt; zeros_tuple (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) For using the variadic arguments using the asterisk(*) # A function that shows the results of running competitions consisting of 2 to 4 runners.</description>
+    </item>
+    
+    <item>
+      <title>웹소켓(WebSocket) 둘러보기</title>
+      <link>https://mingyuchoo.github.io/posts/2019-04-11-websocket/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2019-04-11-websocket/</guid>
+      <description>History Standard Features Client and Server Protocol API Client Server </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dfs on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/tags/dfs/</link>
+    <description>Recent content in dfs on mingyuchoo.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/tags/dfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DFS</title>
+      <link>https://mingyuchoo.github.io/posts/2020-10-12-algorithm-dfs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2020-10-12-algorithm-dfs/</guid>
+      <description>DFS(깊이 우선 탐색, Depth First Search) 정의 Depth First Search의 약자로 깊이 우선 탐색을 뜻한다. 버텍스(vertex)의 자식들(children)을 우선으로 탐색한다.
+유형 특징 거의 빠지지 않고 출제된다. 기본 코드를 외우고 들어가는 것이 좋다.
+문제 식별 묶음을 찾아주는 프로그램은 DFS를 이용한다.
+출제 특징 상하좌우, 동서남북, 등의 좌표가 제시되는 경우가 많다.
+제시된 공간을 넘어갈 때 처리하는 상황이 주어질 수 있다.
+재귀호출을 해야할 상황이 주어진다.
+예제 영역 개수 구하기 연구소 바이러스 확산 괄호 변환 연산자 끼워넣기 </description>
+    </item>
+    
+  </channel>
+</rss>

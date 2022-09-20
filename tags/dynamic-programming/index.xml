@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dynamic-programming on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/tags/dynamic-programming/</link>
+    <description>Recent content in dynamic-programming on mingyuchoo.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/tags/dynamic-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic Programming</title>
+      <link>https://mingyuchoo.github.io/posts/2020-05-24-algorithm-dynamic-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2020-05-24-algorithm-dynamic-programming/</guid>
+      <description>동적계획법(Dynamic Programming)은 문제의 최적해를 구하거나 답의 개수를 세는 과정에 사용할 수 있는 알고리즘 설계 기법입니다. 동적계획법을 사용하면 불필요한 계산을 줄이고, 효율적으로 최적해를 찾을 수 있습니다.
+동적계획법은 “전체 문제를 작은 문제로 단순화한 다음 점화식으로 만들어 재귀적인 구조를 활용해서 전체 문제를 해결하는 방식” 입니다.</description>
+    </item>
+    
+  </channel>
+</rss>

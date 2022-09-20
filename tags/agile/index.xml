@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>agile on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/tags/agile/</link>
+    <description>Recent content in agile on mingyuchoo.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MVP, MMF, MMP, and MMR</title>
+      <link>https://mingyuchoo.github.io/posts/2020-05-20-mvp-mmf-mmp-mmr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2020-05-20-mvp-mmf-mmp-mmr/</guid>
+      <description>MVP(Minimum Viable Product) MMF(Minimum Marketable Feature) MMR(Minimum Marketable Release) MMP(Minimum Marketable Product) MVP Minimum Viable Product
+MVP is often a prototype aimed at getting a validated learning about a subset of users. Created to explore a hypothesis. Often a functional prototype where some functionality is simulated or performed manually. Your aim is to do just enough work to get something in front of potential end users to learn what they really want.</description>
+    </item>
+    
+    <item>
+      <title>User Story Examples</title>
+      <link>https://mingyuchoo.github.io/posts/2020-05-20-user-story-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2020-05-20-user-story-example/</guid>
+      <description>Example 1 @tv @wip @manual Feature: BBC TV Brands Homepage As a user of BBC website I want to have a web page for every TV brand of the BBC So that I can get all the informaiton about my favorite Brand Background: Brand is available Given: BBC TV brand is available to public or coming soon Scenario Outline: TV Brand page Given I am on the BBC TV &amp;lt;brand&amp;gt; page When the bran page loads Then I should see &amp;#34;One iPlayer&amp;#34; And I should see clips, galleries, tweeks and related links But I should not see &amp;#34;On Radio&amp;#34; Examples: List of the TV Brand - Valid | brand | | EastEnders | | Docker Who | Examples: List of the Radio Brands - Invalid | brand | | The Archers | | Noorin Khan | Example 2 # Id: OCST-1.</description>
+    </item>
+    
+  </channel>
+</rss>

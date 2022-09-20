@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/tags/tech/</link>
+    <description>Recent content in tech on mingyuchoo.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bash Tips &amp; Tricks</title>
+      <link>https://mingyuchoo.github.io/posts/2020-05-20-bash-tips-and-tricks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2020-05-20-bash-tips-and-tricks/</guid>
+      <description>한 번에 모든 프로젝트에 ncu 로 모듈 업데이트하기 for directory in $(ls) do pushd $directory cd $directory ncu -u popd done 특정 디렉터리의 자식 디렉터리를 탐색하며 특정 파일을 삭제하기 for directory in $(ls) do pushd $directory cd $directory rm package-lock.json popd done Java 프로세스 목록 Kill for pid in $(ps aux | grep java | awk &amp;#39;{print $2}&amp;#39;) do kill $pid done 메모리 사용량 순서로 프로세스 목록 보기 ps -ef --sort -rss | head -n 11 </description>
+    </item>
+    
+    <item>
+      <title>Install sticky note in Ubunut</title>
+      <link>https://mingyuchoo.github.io/posts/2019-07-27-ubuntu-install-sticky-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2019-07-27-ubuntu-install-sticky-notes/</guid>
+      <description>sudo add-apt-repository ppa:umang/indicator-stickynotes sudo apt-get update sudo apt-get install indicator-stickynotes </description>
+    </item>
+    
+    <item>
+      <title>Javascript Development Tools &amp; Frameorks, &amp; Libraries</title>
+      <link>https://mingyuchoo.github.io/posts/2019-07-29-javascript-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2019-07-29-javascript-tools/</guid>
+      <description>Package management Nodejs Framework Bundler Testing Framework sinon Mocking library https://sinonjs.org supports spy, stub, and fake Istanbul (nyc) Test coverage https://istanbul.js.org </description>
+    </item>
+    
+    <item>
+      <title>Nodejs 패키지 업데이트</title>
+      <link>https://mingyuchoo.github.io/posts/2019-07-27-npm-update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2019-07-27-npm-update/</guid>
+      <description>npm outdated npm update --save npm update --save-dev </description>
+    </item>
+    
+    <item>
+      <title>Python Package Update</title>
+      <link>https://mingyuchoo.github.io/posts/2019-07-27-python-package-update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2019-07-27-python-package-update/</guid>
+      <description>Python 패키지 설치 I cannot install or upgrade pip &amp;ldquo;ssl error&amp;rdquo; pip install --upgrade pip --trusted-host pypi.org --trusted-host files.pythonhosted.org 패키지 업데이트 하기 오래된 패키지 업데이트하기 1 pip list --outdated --format=freeze | grep -v &amp;#39;^\-e&amp;#39; | cut -d = -f 1 | xargs -n1 pip install -U 오래된 패키지 업데이트하기 2 for package in $(pip list --outdated | awk &amp;#39;{ print $1}&amp;#39;) do pip install $package --upgrade --trusted-host pypi.org --trusted-host files.pythonhosted.org done requirements.</description>
+    </item>
+    
+    <item>
+      <title>Python tips and tricks</title>
+      <link>https://mingyuchoo.github.io/posts/2019-05-23-python-tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2019-05-23-python-tips/</guid>
+      <description>파이썬에서 Underscore( _ ) 역할 Using in Interpreter Ignoring Value Use in Looping Separating Dicts of Numbers Naming using Underscore ( _ ) Single Pre Underscores _variable Single Post Underscores variable_ Double Pre Underscores __variable Double Pre and Post Underscores *variable Asterisk(*)의 사용법 &amp;gt;&amp;gt;&amp;gt; 2 * 3 6 &amp;gt;&amp;gt;&amp;gt; 2 ** 3 8 &amp;gt;&amp;gt;&amp;gt; 1.414 * 1.414 1.9993959999999997 &amp;gt;&amp;gt;&amp;gt; 1.414 ** 2 1.9993959999999997 # 리스트 초기화 예제 &amp;gt;&amp;gt;&amp;gt; zeros_list = [0] * 100 &amp;gt;&amp;gt;&amp;gt; zeros_list [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] # 튜플 초기화 예제 &amp;gt;&amp;gt;&amp;gt; zeros_tuple = (0,) * 100 &amp;gt;&amp;gt;&amp;gt; zeros_tuple (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) For using the variadic arguments using the asterisk(*) # A function that shows the results of running competitions consisting of 2 to 4 runners.</description>
+    </item>
+    
+    <item>
+      <title>Spotless for Java Auto formatting</title>
+      <link>https://mingyuchoo.github.io/posts/2020-05-20-spotless/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2020-05-20-spotless/</guid>
+      <description>https://github.com/diffplug/spotless Gradle Settings Using the plugins DSL plugins { id &amp;#34;com.diffplug.gradle.spotless&amp;#34; version &amp;#34;3.30.0&amp;#34; } ... spotless { java { importOrder &amp;#39;java&amp;#39;, &amp;#39;javax&amp;#39;, &amp;#39;org&amp;#39;, &amp;#39;com&amp;#39;, &amp;#39;&amp;#39;	// A sequence of package names googleJavaFormat(&amp;#34;1.7&amp;#34;).aosp() removeUnusedImports() // removes any unused imports indentWithSpaces(4) // default 4 trimTrailingWhitespace() endWithNewline() } format &amp;#39;misc&amp;#39;, { target &amp;#39;**/*.yml&amp;#39;, &amp;#39;**/*.gradle&amp;#39;, &amp;#39;**/*.md&amp;#39;, &amp;#39;**/.gitignore&amp;#39; indentWithSpaces(2) trimTrailingWhitespace() endWithNewline() } } ... Using legacy plugin application buildscript { ... dependencies { classpath(&amp;#39;com.diffplug.spotless:spotless-plugin-gradle:3.30.0&amp;#39;) } } .</description>
+    </item>
+    
+    <item>
+      <title>TypeScript Basic</title>
+      <link>https://mingyuchoo.github.io/posts/2019-07-29-typescript-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2019-07-29-typescript-testing/</guid>
+      <description>Types Basic Types boolean number string [], Array [Type, Type] {,,,} any, any[] void undefined, null naver Boolean let isDone: boolean = false; Number let decimal: number = 6; String let color: string = &amp;#34;blue&amp;#34;; Array let list: number[] = [1, 2, 3]; let list: Array&amp;lt;number&amp;gt; = [1, 2, 3]; Tuple let x: [string, number]; Enum enum Color {Red, Green, Blue} let c Color = Color.Green; Any let notSure: any = 4; let list: any[] = [1, true, &amp;#34;free&amp;#34;]; Void let unusable: void = undefined; Null and Undefined let u: undefined = undefined; let n: null = null; Never function error(message: string): never { throw new Error(message); } function infiniteLoop(): never { while (true) { } } Object declare function create(o: object | null): void; create({ prop: 0 }); // OK create(null); // OK create(42); // Error create(&amp;#34;string&amp;#34;); // Error create(false); // Error create(undefined); // Error </description>
+    </item>
+    
+    <item>
+      <title>웹소켓(WebSocket) 둘러보기</title>
+      <link>https://mingyuchoo.github.io/posts/2019-04-11-websocket/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2019-04-11-websocket/</guid>
+      <description>History Standard Features Client and Server Protocol API Client Server </description>
+    </item>
+    
+  </channel>
+</rss>

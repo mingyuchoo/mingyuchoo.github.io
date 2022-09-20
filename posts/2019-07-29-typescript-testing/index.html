@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <title>TypeScript Basic</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="" />
+    <style>
+@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";:root{--cursor-visibility:hidden}html,body{width:100%;height:100%;overflow-y:hidden;font-family:inconsolata,monospace;font-size:4vmin;line-height:4.1vmin;font-weight:400}body{overflow-y:auto;margin:0;display:flex;flex-direction:row;justify-content:center;align-items:center}#content{min-width:82vmin;height:82vmin}#profile_image{max-height:460px}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{border-radius:10px;box-shadow:inset 0 0 1px white}::-webkit-scrollbar-thumb{border-radius:10px;box-shadow:0 0 0 1px white}.cursor,#activity-title:after,#activity-content:after,#ps1_01:after,#cd:after,#ps1_02:after,#cat:after,#std_out_01:after,#ps1_03:after,#std_out_02:after,#ps1_04:after{visibility:var(--cursor-visibility);content:"|";overflow:hidden;color:#fff;animation:blink 500ms linear infinite alternate}@keyframes blink{0%{opacity:0}100%{opacity:1}}@media only screen and (min-width:768px){body{font-size:2.5vmin;line-height:2.6vmin}#content{min-width:60vmin}}:root{--cursor-visibility:hidden}body{align-items:unset;overflow-y:scroll}#content{max-width:80vmin}pre{overflow-x:scroll;white-space:pre}@keyframes blink{0%{opacity:0}100%{opacity:1}}
+
+
+
+
+
+
+
+
+
+body{background:#5e5086}body #prompt{color:#c8cacc}body #keyword-main{color:#2f2742}body #keyword-secondary{color:#8f4e8b}body #ghcVersion{color:#c8cacc}body #output{color:#c8cacc}body .Typewriter__cursor{color:#8f4e8b}a{color:#8f4e8b}
+
+</style>
+
+
+
+</head><body><div id="content">
+    
+    
+    
+
+
+    <span id="activity-title"></span> <br>
+<span id="activity-content"></span> <br>
+
+<script type="text/javascript" src=https://mingyuchoo.github.io/js/typewriter.min.js></script>
+<script type="text/javascript">
+    const typeeffect = async () => {
+        await typewriter("\u003cspan id='prompt'\u003e\u003ch1 id='title'\u003eTypeScript Basic\u003c/h1\u003e\u003c/span\u003e", "activity-title",  0 );
+        await typewriter("\u003cspan id='prompt'\u003e\u003ch2 id=\"types\"\u003eTypes\u003c/h2\u003e\n\u003ch3 id=\"basic-types\"\u003eBasic Types\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eboolean\u003c/li\u003e\n\u003cli\u003enumber\u003c/li\u003e\n\u003cli\u003estring\u003c/li\u003e\n\u003cli\u003e[], Array\u003c!-- raw HTML omitted --\u003e\u003c/li\u003e\n\u003cli\u003e[Type, Type]\u003c/li\u003e\n\u003cli\u003e{,,,}\u003c/li\u003e\n\u003cli\u003eany, any[]\u003c/li\u003e\n\u003cli\u003evoid\u003c/li\u003e\n\u003cli\u003eundefined, null\u003c/li\u003e\n\u003cli\u003enaver\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4 id=\"boolean\"\u003eBoolean\u003c/h4\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003elet isDone: boolean = false;\n\u003c/code\u003e\u003c/pre\u003e\u003ch4 id=\"number\"\u003eNumber\u003c/h4\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003elet decimal: number = 6;\n\u003c/code\u003e\u003c/pre\u003e\u003ch4 id=\"string\"\u003eString\u003c/h4\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003elet color: string = \u0026#34;blue\u0026#34;;\n\u003c/code\u003e\u003c/pre\u003e\u003ch4 id=\"array\"\u003eArray\u003c/h4\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003elet list: number[] = [1, 2, 3];\nlet list: Array\u0026lt;number\u0026gt; = [1, 2, 3];\n\u003c/code\u003e\u003c/pre\u003e\u003ch4 id=\"tuple\"\u003eTuple\u003c/h4\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003elet x: [string, number];\n\u003c/code\u003e\u003c/pre\u003e\u003ch4 id=\"enum\"\u003eEnum\u003c/h4\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eenum Color {Red, Green, Blue}\nlet c Color = Color.Green;\n\u003c/code\u003e\u003c/pre\u003e\u003ch4 id=\"any\"\u003eAny\u003c/h4\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003elet notSure: any = 4;\nlet list: any[] = [1, true, \u0026#34;free\u0026#34;];\n\u003c/code\u003e\u003c/pre\u003e\u003ch4 id=\"void\"\u003eVoid\u003c/h4\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003elet unusable: void = undefined;\n\u003c/code\u003e\u003c/pre\u003e\u003ch4 id=\"null-and-undefined\"\u003eNull and Undefined\u003c/h4\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003elet u: undefined = undefined;\nlet n: null = null;\n\u003c/code\u003e\u003c/pre\u003e\u003ch4 id=\"never\"\u003eNever\u003c/h4\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003efunction error(message: string): never {\n    throw new Error(message);\n}\nfunction infiniteLoop(): never {\n    while (true) {\n    }\n}\n\u003c/code\u003e\u003c/pre\u003e\u003ch4 id=\"object\"\u003eObject\u003c/h4\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003edeclare function create(o: object | null): void;\n\ncreate({ prop: 0 }); // OK\ncreate(null); // OK\n\ncreate(42); // Error\ncreate(\u0026#34;string\u0026#34;); // Error\ncreate(false); // Error\ncreate(undefined); // Error\n\u003c/code\u003e\u003c/pre\u003e\u003c/span\u003e", "activity-content",  0 );
+        return;
+    };
+
+    typeeffect();
+</script>
+
+
+        </div></body>
+</html>

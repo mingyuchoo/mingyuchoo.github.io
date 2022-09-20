@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/tags/java/</link>
+    <description>Recent content in java on mingyuchoo.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spotless for Java Auto formatting</title>
+      <link>https://mingyuchoo.github.io/posts/2020-05-20-spotless/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2020-05-20-spotless/</guid>
+      <description>https://github.com/diffplug/spotless Gradle Settings Using the plugins DSL plugins { id &amp;#34;com.diffplug.gradle.spotless&amp;#34; version &amp;#34;3.30.0&amp;#34; } ... spotless { java { importOrder &amp;#39;java&amp;#39;, &amp;#39;javax&amp;#39;, &amp;#39;org&amp;#39;, &amp;#39;com&amp;#39;, &amp;#39;&amp;#39;	// A sequence of package names googleJavaFormat(&amp;#34;1.7&amp;#34;).aosp() removeUnusedImports() // removes any unused imports indentWithSpaces(4) // default 4 trimTrailingWhitespace() endWithNewline() } format &amp;#39;misc&amp;#39;, { target &amp;#39;**/*.yml&amp;#39;, &amp;#39;**/*.gradle&amp;#39;, &amp;#39;**/*.md&amp;#39;, &amp;#39;**/.gitignore&amp;#39; indentWithSpaces(2) trimTrailingWhitespace() endWithNewline() } } ... Using legacy plugin application buildscript { ... dependencies { classpath(&amp;#39;com.diffplug.spotless:spotless-plugin-gradle:3.30.0&amp;#39;) } } .</description>
+    </item>
+    
+  </channel>
+</rss>

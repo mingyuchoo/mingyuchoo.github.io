@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dijkstra on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/tags/dijkstra/</link>
+    <description>Recent content in dijkstra on mingyuchoo.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/tags/dijkstra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shortest Path; Dijkstra</title>
+      <link>https://mingyuchoo.github.io/posts/2020-10-06-algorithm-shortest-path/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2020-10-06-algorithm-shortest-path/</guid>
+      <description>최단 거리; 데이크스트라(Dijkstra) 정의 컴퓨터 과학에서, 데이크스트라 알고리즘(영어: Dijkstra algorithm) 또는 다익스트라 알고리즘은 도로 교통망 같은 곳에서 나타날 수 있는 그래프에서 꼭짓점 간의 최단 경로를 찾는 알고리즘이다.
+이 알고리즘은 변형이 많다. 데이크스트라의 원래 알고리즘은 두 꼭짓점 간의 가장 짧은 경로를 찾는 알고리즘이지만, 더 일반적인 변형은 한 꼭짓점을 &amp;ldquo;소스&amp;rdquo; 꼭짓점으로 고정하고 그래프의 다른 모든 꼭짓점까지의 최단경로를 찾는 알고리즘으로 최단 경로 트리를 만드는 것이다.
+어떤 분야, 특히 인공 지능 분야에서, 데이크스트라 알고리즘이나 그 변형은 균일 비용 탐색으로 알려져 있으며 최상 우선 탐색의 일반적인 아이디어의 예시로 공식화 되어있다.</description>
+    </item>
+    
+  </channel>
+</rss>

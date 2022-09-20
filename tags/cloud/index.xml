@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloud on mingyuchoo.github.io</title>
+    <link>https://mingyuchoo.github.io/tags/cloud/</link>
+    <description>Recent content in cloud on mingyuchoo.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mingyuchoo.github.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Services</title>
+      <link>https://mingyuchoo.github.io/posts/2022-07-20-aws-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mingyuchoo.github.io/posts/2022-07-20-aws-services/</guid>
+      <description>AWS Services AWS Major Services Computing Services Amazon EC2(Elastic Compute Cloud) Amazon Auto Scaling Amazon Lightsail Amazon WorkSpaces Networking Services Amazon Route 53 Amazon VPC(Virtual Private Cloud) AWS Direct Connect Amazon ELB(Elasitc Load Balancer) Storage Services Amazon S3(Simple Storage Services) Amazon Glacier Amazon EBS(Elasitc Block Storage) AWS Storage Gateway AWS Snowball Database Services Amazon RDS(Relational Database Services) Amazon DynamoDB Amazon ElasticCache Analytics Services Amazon Kinesis Amazon Redshift Amazon EMR Application Services Amazon CloudSearch Amzaon SES(Simple Email Services) Amazon Elastic Transcoder </description>
+    </item>
+    
+  </channel>
+</rss>
